@@ -79,7 +79,7 @@ For `ADMIN_EMAILS`, add your own email and any teammates you are collaborating w
 
 * Add your own UCSB email address
 * Add `phtcon@ucsb.edu` (your instructor)
-* Add the staff emails (look for these in the instructions for this assignment)
+* Add the staff emails (look for these on the Slack help channel for this assignment)
 * Add the emails of everyone else on your team
 
 I suggest that, as a team, you collaborate in your team slack channel on getting a standard list of these, and then
