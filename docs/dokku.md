@@ -21,10 +21,18 @@ The steps below should be done *strictly in this order*. If you try them in a di
    <tt>dokku postgres:create jpa03-<i>yourGithubLogin</i>-db</tt><br />
    <tt>dokku postgres:link jpa03-<i>yourGithubLogin</i>-db jpa03-<i>yourGithubLogin</i> </tt> <br />
 
-6. Build the app with regular `http` using the commands.  This will deploy an http only version of the app. When these commands complete, *you will still not be able to login yet, but you should be able to access the home page over `http`*:<br />
+   Note that when you do this, you may get the message:
+   
+   <tt>App image (dokku/jpa03-yourGithubLogin</i>:latest) not found</tt>
+
+   This is normal; it signifies that we have not yet uploaded any *code* for this application,
+   so there's nothing to actually *run* yet.
+   ```
+
+7. Build the app with regular `http` using the commands.  This will deploy an http only version of the app. When these commands complete, *you will still not be able to login yet, but you should be able to access the home page over `http`*:<br />
    <tt>dokku git:sync jpa03-<i>yourGithubLogin</i> https://github.com/ucsb-cs156-s25/jpa03-<i>yourGithubLogin</i> main</tt><br />
    <tt>dokku ps:rebuild jpa03-<i>yourGithubLogin</i></tt><br />
-7. Now deploy https (encrypting) with these commands.
+8. Now deploy https (encrypting) with these commands.
    This will deploy an https  version of the app.
    When these commands complete, *you should be able to login with OAuth*:<br />
    <tt>dokku letsencrypt:set jpa03-<i>yourGithubLogin</i> email <i>yourEmail</i>@ucsb.edu</tt><br />
