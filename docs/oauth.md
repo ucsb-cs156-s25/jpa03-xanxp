@@ -79,8 +79,8 @@ For `ADMIN_EMAILS`, add your own email and any teammates you are collaborating w
 
 * Add your own UCSB email address
 * Add `phtcon@ucsb.edu` (your instructor)
-* Add the mentor for your team (look up the mentor's name on the course team listing, then ask them in your channel)
-* Add everyone else on your team
+* Add the staff emails (look for these in the instructions for this assignment)
+* Add the emails of everyone else on your team
 
 I suggest that, as a team, you collaborate in your team slack channel on getting a standard list of these, and then
 that you pin that post in your team slack channel for easy reference.
