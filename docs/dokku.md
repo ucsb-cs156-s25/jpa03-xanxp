@@ -27,7 +27,7 @@ The steps below should be done *strictly in this order*. If you try them in a di
 
    This is normal; it signifies that we have not yet uploaded any *code* for this application,
    so there's nothing to actually *run* yet.
-   ```
+   
 
 7. Build the app with regular `http` using the commands.  This will deploy an http only version of the app. When these commands complete, *you will still not be able to login yet, but you should be able to access the home page over `http`*:<br />
    <tt>dokku git:sync jpa03-<i>yourGithubLogin</i> https://github.com/ucsb-cs156-s25/jpa03-<i>yourGithubLogin</i> main</tt><br />
